@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeaSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">  </script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+  <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  
+  
+
+<body class="bg-dark ">
+  <nav class="navbar navbar-expand-sm navbar-dark custom-navbar">
+    <div class="container ">
+      <a class="navbar-brand " href="javascript:void(0)">
+   <a class="navbar-brand" href="javascript:void(0)">
+  <span
+    style="color: #ff6b6b; font-weight:900; font-size: xx-large; text-shadow: 2px 2px 6px rgba(255, 107, 107, 0.6);">
+    Idea
+  </span>
+  <span
+    style="color: #00d1b2; font-weight: bold; font-size: xx-large; text-shadow: 2px 2px 8px rgba(0, 209, 178, 0.8);">
+    Sphere
+  </span>
+</a>
+
+
+      </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+
+        </ul>
+        <form class="d-flex">
+          <a class="btn btn-outline-primary me-2 custom-btn" href="index.html">Home</a>
+          <a class="btn btn-outline-primary me-2 custom-btn" href="AboutUS.html">About Us</a>
+          <a class="btn btn-outline-primary me-2 custom-btn" href="ContactUs.html">Contact Us</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide carousel-dark" data-bs-ride="carousel">
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active carousel-indicators"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="carousel-indicators"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="carousel-indicators"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/image_1.webp" alt="Los Angeles" class="d-block" style="width:100%; height: 470px;">
+        <!-- <div class="carousel-caption">
+          <h3>From Concept to Creation</h3>
+          <p>Transform your ideas into impactful AI projects with our comprehensive topic suggestions</p>
+        </div> -->
+      </div>
+      <div class="carousel-item">
+        <img src="image/image_2.jpg" alt="Chicago" class="d-block" style="width:100% ;height: 470px;">
+        <div class="carousel-caption">
+          <h3>From Concept to Creation</h3>
+          <p>Transform your ideas into impactful AI projects with our comprehensive topic suggestions</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/images_3.jpg" alt="New York" class="d-block" style="width:100%; height: 470px;">
+        <div class="carousel-caption">
+          <h3>Innovate with Confidence</h3>
+          <p>Access a wide range of AI project topics designed to spark innovation and drive progress.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="section container pt-5">
+    <div class="container text-center">
+      <h2 class="text-light fw-semibold pb-4">
+        <span  style="color: #ff6b6b; font-weight:900; font-size: xx-large; text-shadow: 2px 2px 6px rgba(255, 107, 107, 0.6);">AI</span>
+        <span     style="color: #00d1b2; font-weight: bold; font-size: xx-large; text-shadow: 2px 2px 8px rgba(0, 209, 178, 0.8);">
+          >-Tools</span>
+      </h2>
+      <div class="row">
+        <div class="col-sm d-flex align-items-stretch">
+          <div class="card text-center creative-gradient h-100">
+            <img src="image/robit.jpg" style="height: 215px; width: 100%;" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">AI robots</h5>
+              <p class="card-text text-light">AI robots use artificial intelligence (AI) to perceive and act in the world around them. They can perform complex tasks, such as quality control, medical assistance, and driving cars.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm">
+          <div class="card text-center creative-gradient">   
+          <img src="image/imag4.png" style="height: 195px; width: 100%;" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">Application of AI</h5>
+              <p class="card-text text-light">AI is being used to develop self-driving cars and improve traffic management. AI is being used to improve energy efficiency and predict energy demand. AI is being used to improve public safety, detect crime, and provide citizen services.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm">
+          <div class="card text-center creative-gradient" >            
+          <img src="image/imag5.jpg" style="height: 215px; width: 100%;" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">AI</h5>
+              <p class="card-text text-light">Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br>
+  
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- AI & Machine Learning Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="tech-card p-4">
+          <h5 class="text-center">AI & Machine Learning</h5>
+          <p class="text-center">Artificial Intelligence (AI) enables machines to perform tasks that typically require human intelligence. Machine Learning (ML), a subset of AI, allows systems to learn and improve from experience without explicit programming.</p>
+          <div class="text-center">
+            <button id="btnML" class="btn btn-primary">Start</button>
+          </div>
+        </div>
+      </div>
+      <!-- Web Development Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="tech-card p-4">
+          <h5 class="text-center">Web Development</h5>
+          <p class="text-center">Web development involves creating and maintaining websites and web applications. It encompasses web design, content creation, client-side/server-side scripting, and network security configuration.</p>
+          <div class="text-center">
+            <button id="btnWD" class="btn btn-primary" >Start</button>
+          </div>
+        </div>
+      </div>
+      <!-- Data Science Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="tech-card p-4">
+          <h5 class="text-center">Data Science</h5>
+          <p class="text-center">Data science is an interdisciplinary field that combines computer science, statistics, and domain expertise to extract insights from data. It employs various tools and techniques to analyze and interpret complex datasets.</p>
+          <div class="text-center">
+            <button id="btnSD" class="btn btn-primary" >Start</button>
+          </div>
+        </div>
+      </div>
+      <!-- Augmented & Virtual Reality Card -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="tech-card p-4">
+          <h5 class="text-center">Augmented & Virtual Reality</h5>
+          <p class="text-center">Augmented Reality (AR) overlays digital information onto the real world, enhancing the user's environment. Virtual Reality (VR) immerses users in a fully simulated environment, often using specialized headsets.</p>
+          <div class="text-center">
+            <button id="btnVR" class="btn btn-primary" >Start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div class="container">
+    <div class="" id="divResult"></div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="text-light">
+      <h2> Enter Project Name Listed Above </h2>
+    </div>
+    <input type="text" class="form-control" id="txtOtherInfo">
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <button type="button" class="btn-success m-1 p-1 col-sm" onclick="getABSTRACT()">ABSTRACT</button>
+      <button type="button" class="btn btn-primary m-1 p-1 col-sm" onclick="getINTRODUCTION()">INTRODUCTION</button>
+      <button type="button" class="btn btn-secondary m-1 p-1 col-sm" onclick="getLITERATURE_SURVEY()">LITERATURE SURVEY</button>
+      <button type="button" class="btn btn-success m-1 p-1 col-sm" onclick="getMETHODOLOGY()">METHODOLOGY</button>
+      <button type="button" class="btn btn-info m-1 p-1 col-sm" onclick="getWORKFLOW()">WORKFLOW</button>
+      <button type="button" class="btn btn-warning m-1 p-1 col-sm" onclick="getSYSTEM_REQUIREMENT()">SYSTEM REQUIREMENT</button>
+      <button type="button" class="btn btn-danger m-1 p-1 col-sm" onclick="getAPPLICATIONS()">APPLICATIONS </button>
+      <button type="button" class="btn btn-info m-1 p-1 col-sm" onclick="getADVANTAGES()">FLOW CHART</button>
+      <button type="button" class="btn btn-light m-1 p-1 col-sm" onclick="getCONCLUSION()">CONCLUSION</button>
+
+
+
+    </div>
+    <div class="row mt-5 " id="divOtherInfo">
+
+    </div>
+  </div>
+
+
+  <script>
+    function getINTRODUCTION() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  INTRODUCTION for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+
+
+    function getLITERATURE_SURVEY() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  LITERATURE SURVEY for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class=' p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+    function getMETHODOLOGY() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  METHODOLOGY for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class=' p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+    function getWORKFLOW() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  WORKFLOW for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class=' p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+    function getSYSTEM_REQUIREMENT() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  SYSTEM REQUIREMENT for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+    function getAPPLICATIONS() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  APPLICATIONS for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+    function getADVANTAGES() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  FLOW CHART for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+
+
+    function getCONCLUSION() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  CONCLUSION for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+    function setProjectName() {
+      debugger
+      //alert($(this).html);
+      //$("#txtOtherInfo").val($(this).html());
+    }
+    function getABSTRACT() {
+      var ProjectName = $("#txtOtherInfo").val();
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "wirte  ABSTRACT for " + ProjectName,
+
+      };
+      $('#divOtherInfo').text('');
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++)
+            {
+              if(adata[i] === "")
+              {
+                var c = 0;
+              }else
+              {
+                $('#divOtherInfo').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + adata[i] + "</div>");
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+    }
+    $("#btnML").on("click", function () {
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "give project Idea for AI and  Machine Learning",
+
+      };
+      $('#divResult').text(''); // Clear previous results
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            debugger
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++) {
+              if (adata[i] === "") {
+                var c = 0;
+              } else {
+
+                adata[i] = adata[i].trim();
+                var c = adata[i].charAt(0);
+                adata[i] = adata[i].replaceAll("**", "");
+                adata[i] = adata[i].replaceAll(":", "");
+                // alert(c);
+                if (c >= '0' && c <= '9') {
+                  kdata = adata[i].split(".");
+                  $('#divResult').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + kdata[1] + "</div>");
+                }
+
+
+              }
+            }
+
+            // $('#divResult').html(mdata);
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+
+    });
+    $("#btnWD").on("click", function () {
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "give project Idea for Web Development ",
+
+      };
+      $('#divResult').text(''); // Clear previous results
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            debugger
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++) {
+              if (adata[i] === "") {
+                var c = 0;
+              } else {
+
+                adata[i] = adata[i].trim();
+                var c = adata[i].charAt(0);
+                adata[i] = adata[i].replaceAll("**", "");
+                adata[i] = adata[i].replaceAll(":", "");
+                // alert(c);
+                if (c >= '0' && c <= '9') {
+                  kdata = adata[i].split(".");
+                  $('#divResult').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + kdata[1] + "</div>");
+                }
+
+
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+
+    });
+    $("#btnSD").on("click", function () {
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "give project Idea for Data Science",
+
+      };
+      $('#divResult').text(''); // Clear previous results
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            debugger
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++) {
+              if (adata[i] === "") {
+                var c = 0;
+              } else {
+
+                adata[i] = adata[i].trim();
+                var c = adata[i].charAt(0);
+                adata[i] = adata[i].replaceAll("**", "");
+                adata[i] = adata[i].replaceAll(":", "");
+                // alert(c);
+                if (c >= '0' && c <= '9') {
+                  kdata = adata[i].split(".");
+                  $('#divResult').append("<div onclick='setProjectName()' class='p-2 bg-light '>" + kdata[1] + "</div>");
+                }
+
+
+              }
+            }
+            $('body').css('cursor', 'default');
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+
+    });
+
+    $("#btnVR").on("click", function () {
+      $('body').css('cursor', 'wait');
+      const dataToSend = {
+        myData: "give project Idea for Virtual Reality",
+
+      };
+      $('#divResult').text(''); // Clear previous results
+      $.ajax({
+        url: 'http://127.0.0.1:8000/api/getFromOpenAI', // API endpoint
+
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(dataToSend),
+
+        headers: {
+          'X-CSRFToken': '{{ csrf_token }}' // If CSRF is enabled in Django
+        },
+        success: function (response) {
+          if (response.status === 'success') {
+            debugger
+            mdata = response.received_data;
+            mdata = mdata.replaceAll("###", "\n")
+            adata = mdata.split("\n");
+
+            for (var i = 0; i < adata.length; i++) {
+              if (adata[i] === "") {
+                var c = 0;
+              } else {
+
+                adata[i] = adata[i].trim();
+                var c = adata[i].charAt(0);
+                adata[i] = adata[i].replaceAll("**", "");
+                adata[i] = adata[i].replaceAll(":", "");
+                // alert(c);
+                if (c >= '0' && c <= '9') {
+                  kdata = adata[i].split(".");
+                  $('#divResult').append("<div onclick='setProjectName()' class='p-2 bg-light'>" + kdata[1] + "</div>");
+                }
+
+
+              }
+            }
+          } else {
+            $('#divResult').text('Error: ' + response.message);
+          }
+        },
+        error: function (xhr) {
+          $('#divResult').text('Request failed: ' + xhr.responseText);
+        }
+      });
+
+    });
+  </script>
+<div class="text-center text-light mt-5">
+  <a class="navbar-brand " href="javascript:void(0)"><span
+    style="color: #ff6b6b; font-weight:900; font-size: xx-large; text-shadow: 2px 2px 6px rgba(255, 107, 107, 0.6);">Idea</span> <span
+    style="color: #00d1b2; font-weight: bold; font-size: xx-large; text-shadow: 2px 2px 8px rgba(0, 209, 178, 0.8);">Sphere</span></a><br>
+  @2025 Copyright :IdeaSphere.com  Website created by xxx (FULL-STACK DEVELOPER)
+
+</div>
+<style>
+   #divResult{
+    background-color: #FFDAB9;
+  }
+  #divOtherInfo{
+    background-color: #FFDAB9;
+  }
+  /* #divResult>div:hover{
+    background-color: #FAF9F6;
+    font-weight: bold ;
+  } */
+  /* #divOtherInfo>div:hover{
+    background-color: #FAF9F6;
+    font-weight: bold ;
+    cursor: pointer;
+  } */
+  #divResult>div{
+    text-align: justify;
+  }
+  #divOtherInfo>div{
+    text-align:justify;
+    }
+</style>
+</body>
+</html>

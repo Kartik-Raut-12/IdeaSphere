@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">  </script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+  <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand " href="javascript:void(0)"><span
+          style="color: rgb(51, 0, 235); font-weight:900; font-size: xx-large; ">AI</span> <span
+          style="color: rgb(205, 245, 27); font-weight: bold; font-size: xx-large; text-shadow: 2px 2px 4px hsl(61, 82%, 74%);">-Techno</span></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+
+        </ul>
+        <form class="d-flex">
+          <a class="btn btn-outline-primary me-2" href="index.html">Home</a>
+          <a class="btn btn-outline-primary me-2" href="AboutUS.html">About Us</a>
+          <a class="btn btn-outline-primary me-2" href="ContactUs.html">Contact Us</a>
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/img8.jpg" alt="Los Angeles" class="d-block" style="width:100%; height: 470px;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/imag3.webp" alt="Chicago" class="d-block" style="width:100% ;height: 470px;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/Stock-Image.jpg" alt="New York" class="d-block" style="width:100%; height: 470px;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="section container pt-5">
+    <p class="text-light " style="text-align: justify;">In today’s fast-paced technological landscape, students and professionals often face a significant challenge when it comes to selecting the right project topic that aligns with their interests, skills, and the current trends in technology. The rapid expansion of information and innovation makes it difficult to filter through countless possibilities to identify a meaningful and feasible project idea. IdeaSphere: AI-Powered Project Topic Finder is a Django-based web application designed to bridge this gap by leveraging the power of artificial intelligence to generate personalized and innovative project ideas based on user preferences and global tech trends.
+    </p>
+    <p class="text-light " style="text-align: justify;">Built on the robust and scalable Django framework, IdeaSphere is a full-stack solution that integrates machine learning and natural language processing (NLP) techniques to understand user intent and recommend relevant project ideas. The system considers various factors such as the user’s academic level (e.g., undergraduate, postgraduate), domain interest (e.g., Artificial Intelligence, IoT, Web Development, Cybersecurity), and trending technologies, enabling it to curate high-quality, goal-oriented project suggestions.
+    </p>
+    <p class="text-light " style="text-align: justify;">The backend of the system, powered by Python and Django, manages user sessions, handles form submissions, processes user inputs, and integrates with external APIs such as Google Trends, GitHub, and arXiv to fetch real-time data. Additionally, pre-trained NLP models (using tools like Hugging Face Transformers or GPT APIs) help in generating coherent and contextually relevant project topics. The system can also generate brief descriptions, possible tools and frameworks, and even potential team roles, making it an all-in-one assistant for project planning and execution.
+    </p>
+    <p class="text-light " style="text-align: justify;">The frontend, which can be developed using Django templates or integrated with modern JavaScript frameworks like React or Vue.js, offers a clean and intuitive interface for users to input their preferences and explore suggested topics. A key feature is the ability to export selected ideas as formatted documents, helping users in creating proposals or getting quick approval from mentors.
+    </p>
+    <p class="text-light " style="text-align: justify;">By automating the ideation process, IdeaSphere not only reduces the cognitive load on users but also promotes creativity and exploration of interdisciplinary ideas. It is especially valuable for educational institutions, innovation hubs, and hackathon participants, where finding the “right” project idea can be the foundation of a successful academic or professional journey.
+    </p>
+    <p class="text-light " style="text-align: justify;">Ultimately, IdeaSphere is not just a project topic generator — it is a smart assistant that transforms idea discovery into an intelligent, efficient, and personalized experience. Built using the power and flexibility of Django, it demonstrates how modern web technologies and AI can come together to solve real-world academic challenges.
+    </p>
+  </section><br>
+
+
+<div class="text-center text-light mt-5">
+  <a class="navbar-brand " href="javascript:void(0)"><span
+    style="color: rgb(51, 0, 235); font-weight:900; font-size: xx-large; ">AI</span> <span
+    style="color: rgb(205, 245, 27); font-weight: bold; font-size: xx-large; text-shadow: 2px 2px 4px hsl(61, 82%, 74%);">-Techno</span></a><br>
+  @2025 Copyright :AI-Techno.com  Website created by xxx (FULL-STACK DEVELOPER)
+
+</div>
+</body>
+
+</html>

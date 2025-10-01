@@ -1,0 +1,27 @@
+# .env
+# db.sqlite3
+# __pycache__/
+# *.pyc
+# Python/Django backend
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+*.log
+
+# Node/React frontend (if you add Node modules later)
+node_modules/
+build/
+dist/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: staticfiles if Django collects static
+staticfiles/
