@@ -25,3 +25,10 @@ Thumbs.db
 
 # Optional: staticfiles if Django collects static
 staticfiles/
+
+# Backend environment file
+Backend/.env
+
+# SQLite databases
+Backend/db.sqlite3
+db.sqlite3
