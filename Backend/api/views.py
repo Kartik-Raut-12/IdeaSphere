@@ -57,9 +57,6 @@ def getFromOpenAI(request):
         received_data = data.get('myData', None)
 
         if received_data:
-            # client = OpenAI(
-            #     api_key="REMOVED
-            # )
             client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
             print("Loaded API KEY:", os.getenv("OPENAI_API_KEY"))
 
